@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+@layer components {
+  input {
+    @apply border-b border-black;
+  }
+
+  form table td {
+    @apply p-2;
+  }
+}
